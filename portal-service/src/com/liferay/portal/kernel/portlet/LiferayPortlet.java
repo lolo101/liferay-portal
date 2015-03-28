@@ -179,7 +179,7 @@ public class LiferayPortlet extends GenericPortlet {
 				return true;
 			}
 			catch (Exception e) {
-				throw new PortletException(nsme);
+				throw new PortletException(e);
 			}
 		}
 		catch (InvocationTargetException ite) {
